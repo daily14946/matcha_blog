@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 10px 20px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.blog-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.hero {
+    background-image: url('matcha-top.jpg'); /* ganti dengan gambar header */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    background-color: #d8e5d4;
+    padding: 10px;
+    border-radius: 8px;
+    width: 160px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2c7030;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.image-section img {
+    width: 100%;
+    display: block;
+    margin-top: -5px;
+}
